@@ -1,0 +1,30 @@
+@api = http://localhost:8080/user
+
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "Luis",
+    "email": "luis@mail.com",
+    "prioridad": 5
+}
+
+###
+
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre": "mario",
+    "email": "mario@mail.com",
+    "prioridad": 4
+}
+
+###
+
+GET {{api}}
+Content-Type: application/json
+
+
+
+
